@@ -55,7 +55,7 @@ describe "Pig Latinizer App" do
     end
 
     it "displays the pig latinized phrase upon form submission" do
-      expect(last_response.body).to include("eHay asway anway oldway anmay owhay ishedfay aloneway inway away iffskay inway ethay ulfGay eamStray andway ehay adhay onegay eightyway ourfay aysday ownay ithoutway akingtay away ishfay")
+      expect(last_response.body).to include("eHay asway anway oldway anmay owhay ishedfay aloneway inway away iffskay inway ethay ulfGay reamStay andway ehay adhay onegay eightyway ourfay aysday ownay ithoutway akingtay away ishfay")
     end
   end
 end
